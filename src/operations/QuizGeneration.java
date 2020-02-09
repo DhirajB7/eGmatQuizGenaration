@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 
 public class QuizGeneration {
 
-    private ArrayList<Question> allQuestions = new ArrayList<>();
+    private ArrayList<Question> allQuestions;
 
     private LinkedHashSet<ArrayList<Question>> finalQuizList = new LinkedHashSet<>();
 
@@ -60,15 +60,14 @@ public class QuizGeneration {
 
    public LinkedHashSet<ArrayList<Question>> getQuizsSetFromQuizGeneration(int numberOfQuestionInQuiz){
        getAllQuestions();
-       ArrayList<Question> arrayListquestion = new ArrayList<>();
        for(int i = 0 ; i < allQuestions.size() ;i=i+numberOfQuestionInQuiz){
+           ArrayList<Question> arrayListquestion = new ArrayList<>();
            for(int j = i ; j < i+numberOfQuestionInQuiz;j++){
                arrayListquestion.add(allQuestions.get(j));
            }
            if(checkTag(arrayListquestion)&&checkLevel(arrayListquestion)){
                finalQuizList.add(arrayListquestion);
            }
-           arrayListquestion.clear();
        }
        return finalQuizList;
    }
