@@ -1,5 +1,5 @@
 package variables;
 
-public enum Level {
+public enum Levels {
     EASY,MEDIUM,HARD
 }
