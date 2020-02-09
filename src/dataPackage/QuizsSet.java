@@ -10,7 +10,7 @@ public class QuizsSet {
     private LinkedHashSet<ArrayList<Question>> quizData;
 
 
-    public void setQuizData(int numberOfQuestionInQuiz) {
+    private void setQuizData(int numberOfQuestionInQuiz) {
         this.quizData = new QuizGeneration().getQuizsSetFromQuizGeneration(numberOfQuestionInQuiz);
     }
 

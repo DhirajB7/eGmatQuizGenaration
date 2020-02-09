@@ -1,4 +1,4 @@
-package variables;
+package constants;
 
 public enum Levels {
     EASY,MEDIUM,HARD

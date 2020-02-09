@@ -2,8 +2,8 @@ package operations;
 
 import dataPackage.Question;
 import dataPackage.QuestionBank;
-import variables.Levels;
-import variables.Tags;
+import constants.Levels;
+import constants.Tags;
 
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
@@ -11,9 +11,9 @@ import java.util.stream.Collectors;
 
 public class QuizGeneration {
 
-    private ArrayList<Question> allQuestions;
+    private ArrayList<Question> allQuestions = new ArrayList<>();
 
-    private LinkedHashSet<ArrayList<Question>> finalQuizList;
+    private LinkedHashSet<ArrayList<Question>> finalQuizList = new LinkedHashSet<>();
 
     private void getAllQuestions(){
         this.allQuestions = (ArrayList<Question>) new QuestionBank().getQuestionSet().stream().collect(Collectors.toList());
@@ -26,10 +26,11 @@ public class QuizGeneration {
 
         for(Tags tag : Tags.values()){
 
-         if(arrayListOfStrings.contains(tag)){
+         if(arrayListOfStrings.contains(tag.toString())){
              flag=flag&&true;
          }else{
              flag=flag&&false;
+             break;
          }
 
         }
@@ -49,6 +50,7 @@ public class QuizGeneration {
                flag=flag&&true;
            }else{
                flag=flag&&false;
+               break;
            }
 
        }
@@ -60,8 +62,8 @@ public class QuizGeneration {
        getAllQuestions();
        ArrayList<Question> arrayListquestion = new ArrayList<>();
        for(int i = 0 ; i < allQuestions.size() ;i=i+numberOfQuestionInQuiz){
-           for(int j = 0 ; j < numberOfQuestionInQuiz;j++){
-               arrayListquestion.add(allQuestions.get(i));
+           for(int j = i ; j < i+numberOfQuestionInQuiz;j++){
+               arrayListquestion.add(allQuestions.get(j));
            }
            if(checkTag(arrayListquestion)&&checkLevel(arrayListquestion)){
                finalQuizList.add(arrayListquestion);
@@ -70,7 +72,5 @@ public class QuizGeneration {
        }
        return finalQuizList;
    }
-
-
 
 }
