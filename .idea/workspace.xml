@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f34c6d8e-2921-4e38-93ee-c200aec69202" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eGmatQuizGenerator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/eGmatQuizGenerator/dataPackage/Question.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/eGmatQuizGenerator/dataPackage/QuestionBank.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/eGmatQuizGenerator/executor/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/eGmatQuizGenerator/operations/FillQuestions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataPackage/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataPackage/QuestionBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/executor/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operations/FillQuestions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +13,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -33,7 +21,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XYokqkf9R0JFdcg6ANiLO1bhe2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -41,6 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resource" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -103,10 +94,14 @@
       <screen x="0" y="0" width="1366" height="735" />
     </state>
     <state x="278" y="30" width="806" height="674" key="#Project_Structure/0.0.1366.735@0.0.1366.735" timestamp="1581234721643" />
-    <state x="491" y="56" width="380" height="623" key="#com.intellij.ide.util.MemberChooser" timestamp="1581236454097">
+    <state x="417" y="175" width="527" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581251516956">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state x="491" y="56" width="380" height="623" key="#com.intellij.ide.util.MemberChooser/0.0.1366.735@0.0.1366.735" timestamp="1581236454097" />
+    <state x="417" y="175" width="527" height="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.735@0.0.1366.735" timestamp="1581251516956" />
+    <state x="491" y="56" width="380" height="623" key="#com.intellij.ide.util.MemberChooser" timestamp="1581250606479">
+      <screen x="0" y="0" width="1366" height="735" />
+    </state>
+    <state x="491" y="56" width="380" height="623" key="#com.intellij.ide.util.MemberChooser/0.0.1366.735@0.0.1366.735" timestamp="1581250606479" />
     <state width="1324" height="305" key="GridCell.Tab.0.bottom" timestamp="1581237314730">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
@@ -147,16 +142,5 @@
       <screen x="0" y="0" width="1366" height="735" />
     </state>
     <state x="99" y="0" width="1163" height="732" key="new project wizard/0.0.1366.735@0.0.1366.735" timestamp="1581234691449" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/operations/FillQuestions.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
