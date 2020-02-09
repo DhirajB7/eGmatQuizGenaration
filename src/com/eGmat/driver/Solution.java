@@ -15,7 +15,7 @@ public class Solution {
      * @param args
      */
     public static void main(String[] args) {
-        LinkedHashSet<ArrayList<Question>> answer = new QuizsSet().getQuizData(19);
+        LinkedHashSet<ArrayList<Question>> answer = new QuizsSet().getQuizData(10);
         System.out.println("Valid Quiz Number : "+answer.size());
         if(answer.size()>0){
             System.out.println("\nThey Are : \n");
