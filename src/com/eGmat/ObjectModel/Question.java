@@ -1,4 +1,4 @@
-package dataPackage;
+package com.eGmat.ObjectModel;
 
 public class Question {
 
@@ -18,6 +18,12 @@ public class Question {
         return tagNumber;
     }
 
+    /**
+     * Create an Object of Question
+     * @param questionNumber
+     * @param difficultyLevel
+     * @param tagNumber
+     */
     public Question(String questionNumber, String difficultyLevel, String tagNumber) {
         this.questionNumber = questionNumber;
         this.difficultyLevel = difficultyLevel;
