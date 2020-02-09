@@ -15,12 +15,16 @@ public class Solution {
      * @param args
      */
     public static void main(String[] args) {
-        LinkedHashSet<ArrayList<Question>> answer = new QuizsSet().getQuizData(10);
-        System.out.println("Valid Quiz Number : "+answer.size()+"\n"+"They Are : "+"\n");
-        answer.forEach(a->{
-            a.forEach(b-> System.out.println(b.getQuestionNumber()+"|"+b.getDifficultyLevel()+"|"+b.getTagNumber()));
-            System.out.println("\n");
-        });
+        LinkedHashSet<ArrayList<Question>> answer = new QuizsSet().getQuizData(19);
+        System.out.println("Valid Quiz Number : "+answer.size());
+        if(answer.size()>0){
+            System.out.println("\nThey Are : \n");
+            answer.forEach(a->{
+                a.forEach(b-> System.out.println(b.getQuestionNumber()+"|"+b.getDifficultyLevel()+"|"+b.getTagNumber()));
+                System.out.println("\n");
+            });
+        }
+
 
     }
 

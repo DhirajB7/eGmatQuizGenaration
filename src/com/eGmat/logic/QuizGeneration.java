@@ -73,12 +73,18 @@ public class QuizGeneration {
 
     /**
      * ArrayList according to number of question per quiz Condition.
+     * Input number of quiz is checked against total number of quiz.
+     * extra questions are left out.(Assumption made)
      * @param numberOfQuestionInQuiz
      * @return LinkedHashSet<ArrayList<Question>> passed to main
      */
    public LinkedHashSet<ArrayList<Question>> getQuizsSetFromQuizGeneration(int numberOfQuestionInQuiz){
        getAllQuestions();
-       for(int i = 0 ; i < allQuestions.size() ;i=i+numberOfQuestionInQuiz){
+       int extraQuestions = 0;
+       if(!(allQuestions.size()%numberOfQuestionInQuiz==0)){
+           extraQuestions=allQuestions.size()%numberOfQuestionInQuiz;
+       }
+       for(int i = 0 ; i < allQuestions.size()-extraQuestions ;i=i+numberOfQuestionInQuiz){
            ArrayList<Question> arrayListquestion = new ArrayList<>();
            for(int j = i ; j < i+numberOfQuestionInQuiz;j++){
                arrayListquestion.add(allQuestions.get(j));
