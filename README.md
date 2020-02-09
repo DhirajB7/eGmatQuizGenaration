@@ -11,7 +11,8 @@ No question should repeat across quiz.
 ```
 
 ## How To Execute
-* UnZip file
+* UnZip file to IDE
+* IDE - IntelliJ 
 * Navigate to src-->com.eGmat-->driver
 * Execute Solution.Java
 * Default value is 10 

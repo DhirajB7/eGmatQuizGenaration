@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="eGmatQuizGenerator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/eGmatQuizGenerator_jar</output-path>
+    <root id="archive" name="eGmatQuizGenerator.jar">
+      <element id="module-output" name="eGmatQuizGenerator" />
+    </root>
+  </artifact>
+</component>
