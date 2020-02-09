@@ -4,11 +4,9 @@
     <list default="true" id="f34c6d8e-2921-4e38-93ee-c200aec69202" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/eGmatQuizGenerator/executor/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/eGmatQuizGenerator/executor/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataPackage/QuizsSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataPackage/QuizsSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eGmatQuizGenerator/operations/QuizGeneration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/eGmatQuizGenerator/operations/QuizGeneration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/executor/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/executor/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/operations/QuizGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/operations/QuizGeneration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variables/Levels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/Levels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variables/Tags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/Tags.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +39,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resource" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -114,6 +112,10 @@
       <screen x="0" y="0" width="1366" height="735" />
     </state>
     <state x="278" y="30" width="806" height="674" key="#Project_Structure/0.0.1366.735@0.0.1366.735" timestamp="1581234721643" />
+    <state x="416" y="127" width="530" height="481" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1581278046588">
+      <screen x="0" y="0" width="1366" height="735" />
+    </state>
+    <state x="416" y="127" width="530" height="481" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.735@0.0.1366.735" timestamp="1581278046588" />
     <state x="417" y="175" width="527" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581251516956">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
@@ -122,42 +124,46 @@
       <screen x="0" y="0" width="1366" height="735" />
     </state>
     <state x="491" y="56" width="380" height="623" key="#com.intellij.ide.util.MemberChooser/0.0.1366.735@0.0.1366.735" timestamp="1581250606479" />
-    <state width="493" height="466" key="DebuggerActiveHint" timestamp="1581270643578">
+    <state width="493" height="466" key="DebuggerActiveHint" timestamp="1581277772920">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="493" height="466" key="DebuggerActiveHint/0.0.1366.735@0.0.1366.735" timestamp="1581270643578" />
-    <state width="1324" height="305" key="GridCell.Tab.0.bottom" timestamp="1581271432263">
+    <state width="493" height="466" key="DebuggerActiveHint/0.0.1366.735@0.0.1366.735" timestamp="1581277772920" />
+    <state width="1324" height="452" key="GridCell.Tab.0.bottom" timestamp="1581278308839">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="1324" height="305" key="GridCell.Tab.0.bottom/0.0.1366.735@0.0.1366.735" timestamp="1581271432263" />
-    <state width="1324" height="305" key="GridCell.Tab.0.center" timestamp="1581271432262">
+    <state width="1324" height="452" key="GridCell.Tab.0.bottom/0.0.1366.735@0.0.1366.735" timestamp="1581278308839" />
+    <state width="1324" height="452" key="GridCell.Tab.0.center" timestamp="1581278308837">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="1324" height="305" key="GridCell.Tab.0.center/0.0.1366.735@0.0.1366.735" timestamp="1581271432262" />
-    <state width="1324" height="305" key="GridCell.Tab.0.left" timestamp="1581271432262">
+    <state width="1324" height="452" key="GridCell.Tab.0.center/0.0.1366.735@0.0.1366.735" timestamp="1581278308837" />
+    <state width="1324" height="452" key="GridCell.Tab.0.left" timestamp="1581278308837">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="1324" height="305" key="GridCell.Tab.0.left/0.0.1366.735@0.0.1366.735" timestamp="1581271432262" />
-    <state width="1324" height="305" key="GridCell.Tab.0.right" timestamp="1581271432263">
+    <state width="1324" height="452" key="GridCell.Tab.0.left/0.0.1366.735@0.0.1366.735" timestamp="1581278308837" />
+    <state width="1324" height="452" key="GridCell.Tab.0.right" timestamp="1581278308838">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="1324" height="305" key="GridCell.Tab.0.right/0.0.1366.735@0.0.1366.735" timestamp="1581271432263" />
-    <state width="1324" height="220" key="GridCell.Tab.1.bottom" timestamp="1581271335214">
+    <state width="1324" height="452" key="GridCell.Tab.0.right/0.0.1366.735@0.0.1366.735" timestamp="1581278308838" />
+    <state width="1324" height="220" key="GridCell.Tab.1.bottom" timestamp="1581277789226">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="1324" height="220" key="GridCell.Tab.1.bottom/0.0.1366.735@0.0.1366.735" timestamp="1581271335214" />
-    <state width="1324" height="220" key="GridCell.Tab.1.center" timestamp="1581271335213">
+    <state width="1324" height="220" key="GridCell.Tab.1.bottom/0.0.1366.735@0.0.1366.735" timestamp="1581277789226" />
+    <state width="1324" height="220" key="GridCell.Tab.1.center" timestamp="1581277789225">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="1324" height="220" key="GridCell.Tab.1.center/0.0.1366.735@0.0.1366.735" timestamp="1581271335213" />
-    <state width="1324" height="220" key="GridCell.Tab.1.left" timestamp="1581271335212">
+    <state width="1324" height="220" key="GridCell.Tab.1.center/0.0.1366.735@0.0.1366.735" timestamp="1581277789225" />
+    <state width="1324" height="220" key="GridCell.Tab.1.left" timestamp="1581277789225">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="1324" height="220" key="GridCell.Tab.1.left/0.0.1366.735@0.0.1366.735" timestamp="1581271335212" />
-    <state width="1324" height="220" key="GridCell.Tab.1.right" timestamp="1581271335213">
+    <state width="1324" height="220" key="GridCell.Tab.1.left/0.0.1366.735@0.0.1366.735" timestamp="1581277789225" />
+    <state width="1324" height="220" key="GridCell.Tab.1.right" timestamp="1581277789225">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="1324" height="220" key="GridCell.Tab.1.right/0.0.1366.735@0.0.1366.735" timestamp="1581271335213" />
+    <state width="1324" height="220" key="GridCell.Tab.1.right/0.0.1366.735@0.0.1366.735" timestamp="1581277789225" />
+    <state x="166" y="0" width="1030" height="732" key="SettingsEditor" timestamp="1581276504250">
+      <screen x="0" y="0" width="1366" height="735" />
+    </state>
+    <state x="166" y="0" width="1030" height="732" key="SettingsEditor/0.0.1366.735@0.0.1366.735" timestamp="1581276504250" />
     <state x="366" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1581269066671">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
@@ -172,11 +178,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/operations/QuizGeneration.java</url>
-          <line>24</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="7" />
+          <line>68</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
