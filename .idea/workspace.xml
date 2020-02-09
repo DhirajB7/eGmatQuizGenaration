@@ -3,10 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="f34c6d8e-2921-4e38-93ee-c200aec69202" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/eGmatQuizGenerator/executor/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/eGmatQuizGenerator/executor/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/eGmatQuizGenerator/operations/QuizGeneration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/eGmatQuizGenerator/operations/QuizGeneration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/executor/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/executor/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/operations/QuizGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/operations/QuizGeneration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eGmatQuizGenerator/dataPackage/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eGmatQuizGenerator/dataPackage/QuestionBank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eGmatQuizGenerator/dataPackage/QuizsSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eGmatQuizGenerator/executor/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eGmatQuizGenerator/operations/FillQuestions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eGmatQuizGenerator/operations/QuizGeneration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/Levels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eGmat/constants/Levels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/Tags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eGmat/constants/Tags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataPackage/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eGmat/ObjectModel/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataPackage/QuestionBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eGmat/ObjectModel/QuestionBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataPackage/QuizsSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eGmat/ObjectModel/QuizsSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/executor/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eGmat/driver/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/operations/FillQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eGmat/logic/FillQuestions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/operations/QuizGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eGmat/logic/QuizGeneration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +56,7 @@
       <recent name="$PROJECT_DIR$/resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Question">
     <configuration name="Question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataPackage.Question" />
       <module name="eGmatQuizGenerator" />
@@ -73,6 +83,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eGmat.driver.Solution" />
+      <module name="eGmatQuizGenerator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eGmat.driver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="executor.Solution" />
       <module name="eGmatQuizGenerator" />
@@ -88,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.QuizGeneration" />
         <item itemvalue="Application.Question" />
@@ -116,6 +140,10 @@
       <screen x="0" y="0" width="1366" height="735" />
     </state>
     <state x="416" y="127" width="530" height="481" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.735@0.0.1366.735" timestamp="1581278046588" />
+    <state x="141" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581279382500">
+      <screen x="0" y="0" width="1366" height="735" />
+    </state>
+    <state x="141" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.735@0.0.1366.735" timestamp="1581279382500" />
     <state x="417" y="175" width="527" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581251516956">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
@@ -128,22 +156,22 @@
       <screen x="0" y="0" width="1366" height="735" />
     </state>
     <state width="493" height="466" key="DebuggerActiveHint/0.0.1366.735@0.0.1366.735" timestamp="1581277772920" />
-    <state width="1324" height="452" key="GridCell.Tab.0.bottom" timestamp="1581278308839">
+    <state width="1324" height="452" key="GridCell.Tab.0.bottom" timestamp="1581279203492">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="1324" height="452" key="GridCell.Tab.0.bottom/0.0.1366.735@0.0.1366.735" timestamp="1581278308839" />
-    <state width="1324" height="452" key="GridCell.Tab.0.center" timestamp="1581278308837">
+    <state width="1324" height="452" key="GridCell.Tab.0.bottom/0.0.1366.735@0.0.1366.735" timestamp="1581279203492" />
+    <state width="1324" height="452" key="GridCell.Tab.0.center" timestamp="1581279203491">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="1324" height="452" key="GridCell.Tab.0.center/0.0.1366.735@0.0.1366.735" timestamp="1581278308837" />
-    <state width="1324" height="452" key="GridCell.Tab.0.left" timestamp="1581278308837">
+    <state width="1324" height="452" key="GridCell.Tab.0.center/0.0.1366.735@0.0.1366.735" timestamp="1581279203491" />
+    <state width="1324" height="452" key="GridCell.Tab.0.left" timestamp="1581279203490">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="1324" height="452" key="GridCell.Tab.0.left/0.0.1366.735@0.0.1366.735" timestamp="1581278308837" />
-    <state width="1324" height="452" key="GridCell.Tab.0.right" timestamp="1581278308838">
+    <state width="1324" height="452" key="GridCell.Tab.0.left/0.0.1366.735@0.0.1366.735" timestamp="1581279203490" />
+    <state width="1324" height="452" key="GridCell.Tab.0.right" timestamp="1581279203492">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="1324" height="452" key="GridCell.Tab.0.right/0.0.1366.735@0.0.1366.735" timestamp="1581278308838" />
+    <state width="1324" height="452" key="GridCell.Tab.0.right/0.0.1366.735@0.0.1366.735" timestamp="1581279203492" />
     <state width="1324" height="220" key="GridCell.Tab.1.bottom" timestamp="1581277789226">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
@@ -172,16 +200,5 @@
       <screen x="0" y="0" width="1366" height="735" />
     </state>
     <state x="99" y="0" width="1163" height="732" key="new project wizard/0.0.1366.735@0.0.1366.735" timestamp="1581234691449" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/operations/QuizGeneration.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

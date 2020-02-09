@@ -1,9 +1,9 @@
-package operations;
+package com.eGmat.logic;
 
-import dataPackage.Question;
-import dataPackage.QuestionBank;
-import constants.Levels;
-import constants.Tags;
+import com.eGmat.ObjectModel.Question;
+import com.eGmat.ObjectModel.QuestionBank;
+import com.eGmat.constants.Levels;
+import com.eGmat.constants.Tags;
 
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
@@ -15,10 +15,18 @@ public class QuizGeneration {
 
     private LinkedHashSet<ArrayList<Question>> finalQuizList = new LinkedHashSet<>();
 
+    /**
+     * all question objects are in form of set is being converted to ArrayList for easy operation
+     */
     private void getAllQuestions(){
         this.allQuestions = (ArrayList<Question>) new QuestionBank().getQuestionSet().stream().collect(Collectors.toList());
     }
 
+    /**
+     * Check if all question have Tag1 to Tag 6
+     * @param arrayListQuestions
+     * @return true is go for next check else reject that arraylist of question
+     */
     private boolean checkTag(ArrayList<Question> arrayListQuestions){
         boolean flag = true;
 
@@ -38,7 +46,12 @@ public class QuizGeneration {
         return flag;
     }
 
-
+    /**
+     * check if atleast 2 EASY,MEDIUM,HARD ARE THERE
+     * @param arrayListQuestions
+     * @return if true add questionList to Set of Final Datastructure
+     * else reject the question array list
+     */
    private boolean checkLevel(ArrayList<Question> arrayListQuestions){
        boolean flag = true;
 
@@ -58,6 +71,11 @@ public class QuizGeneration {
        return flag;
    }
 
+    /**
+     * ArrayList according to number of question per quiz Condition.
+     * @param numberOfQuestionInQuiz
+     * @return LinkedHashSet<ArrayList<Question>> passed to main
+     */
    public LinkedHashSet<ArrayList<Question>> getQuizsSetFromQuizGeneration(int numberOfQuestionInQuiz){
        getAllQuestions();
        for(int i = 0 ; i < allQuestions.size() ;i=i+numberOfQuestionInQuiz){

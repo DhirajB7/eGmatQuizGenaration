@@ -1,7 +1,6 @@
-package operations;
+package com.eGmat.logic;
 
-import dataPackage.Question;
-import dataPackage.QuestionBank;
+import com.eGmat.ObjectModel.Question;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -13,6 +12,15 @@ public class FillQuestions {
     String filePath = "resource/data.txt";
     LinkedHashSet<Question> questionSet;
 
+    /**
+     * input : External data file
+     * string in format "Q123|EASY|Tag1" is converted to Question object
+     * LinkedHashSet is used to store question,because
+     * 1) remove duplicate
+     * 2) to preserve insertion order
+     *
+     * @return LinkedHashSet
+     */
     public LinkedHashSet<Question> fillQuestionFromFile(){
         try {
             questionSet= new LinkedHashSet<>();
